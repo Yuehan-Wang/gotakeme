@@ -17,7 +17,7 @@ desc_get()
 
 def desc_proc(desc_val):
     for val in desc_val[1::]:
-        term = re.findall(r'.*Terms Offered:(.*?)Prerequisite(s).*', val[0], re.I)
+        term = re.findall(r'.*Terms Offered:(.*?)Prerequisite(s).*', val[0], pip freeze > requirements.txtre.I)
         print(term)
         print(val[0])
 desc_proc(desc_val)
